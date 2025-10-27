@@ -3,7 +3,7 @@
 require 'httparty'
 require 'json'
 require 'optparse'
-require_relative './finders.rb'
+require_relative './lib/finders.rb'
 include Finders
 
 response = HTTParty.get("https://appassets02.shiftcare.com/manual/clients.json")
