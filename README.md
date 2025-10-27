@@ -71,4 +71,4 @@ I use ruby's `OptionParser` to parse the command line arguments and generate a l
 
 - Currently, the tests connect to the real json via the main search utility file. However, as an improvement, we could mock the http call to the remote json server.s
 
-- Convert `search.rb` into a module and packaged as a ruby gem.
+- Convert `search.rb` into a module and packaged as a ruby gem, so that we can consume it within an another ruby application as a library.
